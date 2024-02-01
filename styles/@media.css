@@ -1,0 +1,101 @@
+@media(max-width:768px){
+    body{
+        /* background: rgb(137, 149, 167);
+        background: linear-gradient(10deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%); */
+    
+        background: rgb(11,37,73);
+        background: linear-gradient(90deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%);
+    }
+}
+@media(min-width:1024px){
+    body{
+        background: rgb(11,37,73);
+        background: linear-gradient(90deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%);
+    }
+    header{
+        margin-left: 30px;
+    }
+    .page{
+        display: inline;
+    } 
+    .anuncio{
+       padding: 40px;
+       float: left;
+       display: inline;
+
+       margin-left: 20px;
+       margin-top: 100px;
+    }
+    .text{
+        float: right;
+        margin-right: 90px;
+        margin-top: 90px;
+        margin-bottom: 20px; 
+    }
+    form{
+        float: right;
+    
+    }
+    .PrecoFinal{
+        float: right;
+        /* margin-right: -6px; */
+        margin-top: 38px;
+
+    }
+    footer{
+        float: left;
+        margin-left: -437px;
+        margin-top: 500px;
+        
+    }
+    #novoCalculo{
+        float: right;
+        margin-top: 175px;
+        margin-right: -154px;
+    }
+}
+@media(min-width:1075px){
+    
+    .page{
+        margin: auto 40px;
+    }
+    .anuncio{
+        padding: 80px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    footer{
+        margin-top: 550px;
+        margin-left: -510px;
+    }
+    .text{
+        margin-right: 150px;
+    }
+    form{
+        margin-right: 57px;
+    }
+    .PrecoFinal{
+        margin-right: 50px;
+    }
+
+}
+@media(min-width:1144px){
+    .anuncio{
+        padding: 90px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    footer{
+        margin-top: 550px;
+        margin-left: -530px;
+    }
+    .text{
+        margin-right: 200px;
+    }
+    form{
+        margin-right: 107px;
+    }
+    .PrecoFinal{
+        margin-right: 105px;
+    }
+}

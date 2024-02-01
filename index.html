@@ -9,54 +9,72 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/@media.css">
+
     <title>Document</title>
 </head>
 <body>
     <div class="page">
-        <header>
-            <p class="saudacao">Happy Day!<span>👏</span></p>
-            <p class="tempo">25 janeiro:26* dia todo</p>
-        </header>
 
-        <div class="anuncio">
-            <div class="interAnuncio">
+        <div class="p1">
+            <header>
+                <div class="cabecalho">
+                    <p class="saudacao">Happy Day!<span>👏</span></p>
+                    <p class="tempo">25 janeiro:26* dia todo</p>
+                </div>
+            </header>
+            
+            <div class="anuncio">
+                <div class="interAnuncio">
 
-                <img class="logo" src="./complemento/SIMBOLO_.png" alt="" width="30">
-                
-                <p>Descubra uma nova era de emtreterimento</p>
-                <span>
-                    <img src="./complemento/PRIMARIA_000.png" alt="" width="99px">
-                </span>
+                    <img class="logo" src="./complemento/SIMBOLO_.png" alt="" width="30">
+                    
+                    <p>Descubra uma nova era de emtreterimento</p>
+                    <span>
+                        <img src="./complemento/PRIMARIA_000.png" alt="" width="99px">
+                    </span>
 
-                <div class="imgDoAnuncio">
-                    <img src="./complemento/notebook_png_com_netVision.png" alt="" width="200px">
+                    <div class="imgDoAnuncio">
+                        <img src="./complemento/notebook_png_com_netVision.png" alt="" width="200px">
+                    </div>
                 </div>
             </div>
-        </div>
 
+            <footer>
+                <samp>Comece a lucrar com sua própria loja</samp>
+                <p>Crie sua loja virtual grátis para vender seus produtos.</p>
+                <button>criar lojas gratis</button>
+            </footer>
+
+        </div>
+            
+        <div class="text">
+            <h1>Calculadora de desconto</h1>
+            <p>Crie promoções atrativas para os seus produtos 
+                <br> e potencialize as vendas do seu negócio.</p>
+        </div>
+            
         <form action="">
             <fieldset>
 
                 <label for="">Preço do produto</label>
                 <div class="inputs">
-                    <fieldset>
-                        <span>R$</span>
-                        <!-- <label for=""></label> -->
+                   <fieldset>
+                        <span class="iconReal">R$</span>
                         <input type="text" name="" id="">
-                </fieldset>
+                    </fieldset>
                 </div>
 
                 <br>
-                
+                    
                 <label for="">Desconto a aplicar</label>
                 <div class="inputs">
                     <fieldset>
                         <span class="iconResto">%</span>
-                        <!-- <label for=""></label> -->
                         <input type="text" name="" id="">
                     </fieldset>
                 </div>
-                
+                    
                 <div class="Desconto">
                     Desconto em reais:
                 </div>
@@ -68,17 +86,12 @@
                 <p>Preço</p>
                 <p>final:</p>
             </div>
-        
+            
             <div id="res">R$ 0,00</div>
         </div>
 
         <button id="novoCalculo">Novo cálculo</button>
 
-        <footer>
-            <samp>Comece a lucrar com sua própria loja</samp>
-            <p>Crie sua loja virtual grátis para vender seus produtos.</p>
-            <button>criar lojas gratis</button>
-        </footer>
     </div>
 </body>
 </html>
