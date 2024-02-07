@@ -1,146 +1,37 @@
-@media(max-width:430px){
-    .p1{
-        margin-right: 30px; 
-    }
-    .anuncio{
-        width:min(50.2rem,90%);   
-    }
-    footer{
-        font-size: 13px;
-        margin-right: 120px 
-    }
+@media (max-width:768px){
     .text{
-        margin-right: 160px;
-        font-size: 13px;
-
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    .inputs input{
+        left: 35px;
+        bottom: 33px;
     }
     .Desconto{
-        margin-left: -35px;
-    }
-    form{
-        margin-left: 50px;
-    }
-    .iconReal, .iconResto{
-        position: absolute;
-        margin-left: -36px;
-    }
-    .PrecoFinal{
-        width: 55%;
-        margin-left: -209px;
-    }
-    #novoCalculo{
-        margin-left: 10px;
-    }
-    
-}
-@media(max-width:768px){
-    body{
-        /* background: rgb(137, 149, 167);
-        background: linear-gradient(10deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%); */
-    
-        background: rgb(11,37,73);
-        background: linear-gradient(90deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%);
+        margin-top: -34px 
     }
 }
-@media(min-width:1024px){
+@media (min-width:768px){
     body{
-        background: rgb(11,37,73);
-        background: linear-gradient(90deg, rgba(11,37,73,0) 0%, rgba(0,212,255,0.0984768907563025) 35%, rgba(0,212,255,0.3897934173669467) 100%);
+        background-position: right 5% bottom 85%;
     }
-    header{
-        margin-left: 30px;
+    .page{
         display: flex;
-        justify-content: space-between;
-        align-items: end;
-    }
-    .page{
-        display: inline;
-    } 
-    .anuncio{
-       padding: 40px;
-       float: left;
-       display: inline;
-
-       margin-left: 20px;
-       margin-top: 50px;
-    }
-    .text{
-        float: right;
-        margin-right: 90px;
-        margin-top: 30px;
-        margin-bottom: 20px; 
-    }
-    form{
-        float: right;
-    }
-    .PrecoFinal{
-        float: right;
-        /* margin-right: -6px; */
-        margin-top: 38px;
-
-    }
-    footer{
-        float: left;
-        margin-left: -437px;
-        margin-top: 470px;
+        flex-direction: row;
         
-    }
-    #novoCalculo{
-        float: right;
-        margin-top: 175px;
-        margin-right: -154px;
+        margin: 5% 5%;
     }
 }
-@media(min-width:1280px){
-    
+@media (min-width:1024px){
     .page{
-        margin: auto 40px;
+        justify-content: center;
+        gap: 45px;
     }
-    .anuncio{
-        /* padding: 80px; */
-        margin-left: 50px;
-        margin-top: 50px;
-
-        font-size: 19px;
-    }
-    .objectImage{
-        width: 460px;
-    }
-    footer{
-        margin-top: 675px;
-        margin-left: -510px;
-    }
-    .text{
-        margin-right: 150px;
-    }
-    form{
-        margin-right: 57px;
-    }
-    .PrecoFinal{
-        margin-right: 50px;
-    }
-
 }
-@media(min-width:1440px){
-    .anuncio{
-        /* padding: 90px; */
-        margin-left: 50px;
-        margin-top: 80px;
-
-        font-size: 19px;
-    }
-    footer{
-        margin-top: 675px;
-        margin-left: -530px;
-    }
-    .text{
-        margin-right: 200px;
-    }
-    form{
-        margin-right: 107px;
-    }
-    .PrecoFinal{
-        margin-right: 105px;
+@media (min-width:1440px){
+    .page{
+        gap: 75px;
+        margin: 0%; 
+    
+        margin-top: 15px;
     }
 }
